@@ -3,6 +3,8 @@ package com.dicoding.mysimplelogin
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.playground.ui.core.SessionManager
+import com.playground.ui.core.UserRepository
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
