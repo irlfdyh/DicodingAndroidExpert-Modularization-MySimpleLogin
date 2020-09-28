@@ -7,6 +7,8 @@ android {
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
 
+    dynamicFeatures = [':chat']
+
     defaultConfig {
         applicationId "com.dicoding.mysimplelogin"
         minSdkVersion 21
@@ -23,6 +25,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    dynamicFeatures = [':chat']
 
 }
 
